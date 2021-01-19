@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="em.kh.ua.sqlitec01">
+    package="com.bogdanlonchuk.modernapp.sqlitec01">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.PostListActivity">
+        <activity android:name="com.bogdanlonchuk.modernapp.ui.PostListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

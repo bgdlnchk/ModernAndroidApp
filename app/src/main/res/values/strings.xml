@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">SqliteC01</string>
+    <string name="app_name">ModernAndroidApp</string>
 
-    <string name="txt_retry">Еще раз</string>
-    <string name="txt_error">Ошибка!</string>
+    <string name="txt_retry">Try once more</string>
+    <string name="txt_error">Error!</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
 </resources>

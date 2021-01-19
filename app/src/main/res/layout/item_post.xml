@@ -5,8 +5,14 @@
     <data>
         <variable
             name="viewModel"
-            type="em.kh.ua.sqlitec01.ui.PostViewModel" />
+            type="com.bogdanlonchuk.modernapp.ui.PostViewModel" />
     </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -17,9 +23,10 @@
             android:id="@+id/post_title"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/app_name"
-            android:textSize="18sp"
+            android:text="@string/title"
+            android:textSize="25sp"
             android:textStyle="bold"
+            android:textColor="@android:color/black"
             app:mutableText="@{viewModel.getPostTitle()}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -29,12 +36,14 @@
             android:id="@+id/post_body"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/app_name"
+            android:text="@string/description"
             android:textSize="18sp"
             android:layout_marginTop="8dp"
             app:mutableText="@{viewModel.getPostBody()}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/post_title" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
 </layout>
