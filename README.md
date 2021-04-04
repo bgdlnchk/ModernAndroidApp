@@ -11,7 +11,7 @@ An example of Android appication, which shows how to realize Google prefered tec
 <h2>Technologies</h2>
 
 - Android Studio;
-- Koltlin;
+- Kotlin;
 - MVVM;
 - Dagger;
 - Room;
